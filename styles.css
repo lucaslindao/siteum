@@ -1,0 +1,70 @@
+/* Configurações básicas */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8b0000;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffdd57;
+}
+
+/* Seção de curiosidades */
+.curiosidades {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative; /* Para a imagem de fundo */
+    background-image: url('back.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.curiosidades h2 {
+    font-size: 2.5rem;
+    color: #ffdd57;
+    margin-bottom: 20px;
+}
+
+.curiosidade {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.curiosidade h3 {
+    font-size: 1.5rem;
+    color: #ffdd57;
+    margin-bottom: 10px;
+}
+
+.curiosidade p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #8b0000;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #ffdd57;
+}
